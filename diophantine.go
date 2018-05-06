@@ -6,13 +6,12 @@ import (
 
 func main() {
 	var found bool
-	var a, b, c float64;
+	var a float64;
 
 	for !found  {
 		if int(a) % 1000000 == 0 {
 			fmt.Printf("a: %f", a)
 		}
-		b = 0
 		for b := a; b <= 2300000000; b++ {
 			if found {
 				break
