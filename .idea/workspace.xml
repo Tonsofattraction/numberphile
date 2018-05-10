@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb377acb-93fa-4f4c-9117-b7fc9233519b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/primes_to_10^6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collatz.go" beforeDir="false" afterPath="$PROJECT_DIR$/collatz.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diophantine.go" beforeDir="false" afterPath="$PROJECT_DIR$/diophantine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/prime_sums.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/prime_sums.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,14 +45,9 @@
         <entry file="file://$PROJECT_DIR$/collatz.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="primes_to_10^6" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/primes_to_10^6">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
@@ -69,8 +62,17 @@
       <file leaf-file-name="sandbox.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -107,6 +109,7 @@
         <option value="$PROJECT_DIR$/compare_is_prime.go" />
         <option value="$PROJECT_DIR$/collatz.go" />
         <option value="$PROJECT_DIR$/diophantine.go" />
+        <option value="$PROJECT_DIR$/python/README" />
       </list>
     </option>
   </component>
@@ -140,6 +143,11 @@
             <path>
               <item name="numberphile" type="b2602c69:ProjectViewProjectNode" />
               <item name="numberphile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="numberphile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="numberphile" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="numberphile" type="b2602c69:ProjectViewProjectNode" />
@@ -236,13 +244,13 @@
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24373259" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24373259" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32876712" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32876712" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -265,7 +273,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore;" />
     <MESSAGE value="try collatz;" />
-    <option name="LAST_COMMIT_MESSAGE" value="try collatz;" />
+    <MESSAGE value="add python folder;" />
+    <MESSAGE value="prime sums;&#10;primes up to 10^6;" />
+    <option name="LAST_COMMIT_MESSAGE" value="prime sums;&#10;primes up to 10^6;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,24 +290,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/primes_to_10^6">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proth.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -308,13 +314,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/primes_to_10^6">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/collatz.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proth.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
