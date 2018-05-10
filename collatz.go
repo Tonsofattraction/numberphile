@@ -5,7 +5,7 @@ import "fmt"
 func collatz(n int16, i int16) bool {
 	i++
 	if n == 1 {
-		fmt.Println(i)
+		fmt.Println(i-1)
 		return true
 	}
 	if n % 2 == 0 {
@@ -16,8 +16,7 @@ func collatz(n int16, i int16) bool {
 }
 
 func main () {
-	var n int16;
-	for n = 2; n < 1000; n++ {
+	for n := int16(2); n < 1000; n++ {
 		fmt.Println(n)
 		collatz(n, 0)
 	}

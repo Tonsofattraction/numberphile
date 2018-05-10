@@ -4,6 +4,8 @@ import (
 	"math"
 )
 
+// one must be negative. no need to check two zeros.
+
 func main() {
 	var found bool
 	var a float64;
