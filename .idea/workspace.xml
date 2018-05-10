@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb377acb-93fa-4f4c-9117-b7fc9233519b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/python/util.py/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/prime_sums.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/python/prime_sums.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collatz.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/collatz.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_is_prime.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/compare_is_prime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diophantine.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/diophantine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proth.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/proth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/sandbox.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/woodall.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/woodall.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,8 +20,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="diophantine.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/diophantine.go">
+      <file leaf-file-name="diophantine.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go/diophantine.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
@@ -23,8 +29,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/util.py/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="proth.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proth.go">
+        <entry file="file://$PROJECT_DIR$/go/proth.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
@@ -33,7 +51,7 @@
         </entry>
       </file>
       <file leaf-file-name="compare_is_prime.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/compare_is_prime.go">
+        <entry file="file://$PROJECT_DIR$/go/compare_is_prime.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -42,7 +60,7 @@
         </entry>
       </file>
       <file leaf-file-name="collatz.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/collatz.go">
+        <entry file="file://$PROJECT_DIR$/go/collatz.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -60,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="sandbox.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandbox.go">
+        <entry file="file://$PROJECT_DIR$/go/sandbox.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
@@ -110,6 +128,7 @@
         <option value="$PROJECT_DIR$/collatz.go" />
         <option value="$PROJECT_DIR$/diophantine.go" />
         <option value="$PROJECT_DIR$/python/README" />
+        <option value="$PROJECT_DIR$/python/util.py/__init__.py" />
       </list>
     </option>
   </component>
@@ -143,11 +162,6 @@
             <path>
               <item name="numberphile" type="b2602c69:ProjectViewProjectNode" />
               <item name="numberphile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="numberphile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="numberphile" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="numberphile" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +256,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24373259" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -250,7 +264,7 @@
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32876712" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32876712" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -259,9 +273,9 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +289,8 @@
     <MESSAGE value="try collatz;" />
     <MESSAGE value="add python folder;" />
     <MESSAGE value="prime sums;&#10;primes up to 10^6;" />
-    <option name="LAST_COMMIT_MESSAGE" value="prime sums;&#10;primes up to 10^6;" />
+    <MESSAGE value="prettier plots;" />
+    <option name="LAST_COMMIT_MESSAGE" value="prettier plots;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,38 +298,28 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/woodall.go">
+    <entry file="file://$PROJECT_DIR$/go/diophantine.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="90">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/primes_to_10^6">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/README">
+    <entry file="file://$PROJECT_DIR$/go/proth.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="300">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compare_is_prime.go">
+    <entry file="file://$PROJECT_DIR$/go/compare_is_prime.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/collatz.go">
+    <entry file="file://$PROJECT_DIR$/go/collatz.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
@@ -328,17 +333,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proth.go">
+    <entry file="file://$PROJECT_DIR$/go/sandbox.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/woodall.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/sandbox.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/compare_is_prime.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/collatz.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/proth.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diophantine.go">
+    <entry file="file://$PROJECT_DIR$/go/diophantine.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/util.py/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

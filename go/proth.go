@@ -1,4 +1,4 @@
-package main
+package _go
 // https://www.youtube.com/watch?v=fcVjitaM3LY
 // did up to 86000 yet
 
