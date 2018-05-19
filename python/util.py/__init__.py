@@ -13,4 +13,4 @@ def log_time_context(tag='', longer=0):
     yield
     end = time.time()
     if end - start > longer:
-        logging.error('CONTEXT TIMER %s: %s' % (tag, round(end - start, 3)))
+        print('CONTEXT TIMER %s: %s' % (tag, round(end - start, 3)))

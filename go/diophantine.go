@@ -4,6 +4,7 @@ import (
 	"math"
 )
 
+// finding 3 cubes that make 33 when summed up
 // one must be negative. no need to check two zeros.
 
 func main() {
@@ -11,7 +12,7 @@ func main() {
 	var a float64;
 
 	for !found  {
-		if int(a) % 1000000 == 0 {
+		if int(a) % 1000 == 0 {
 			fmt.Printf("a: %f", a)
 		}
 		for b := a; b <= 2300000000; b++ {
@@ -19,7 +20,7 @@ func main() {
 				break
 			}
 			for c := b; c <= 2300000000; c++ {
-				if int(c) % 1000000 == 0 {
+				if int(c) % 1000 == 0 {
 					fmt.Printf("c: %f\n", c)
 				}
 				if math.Pow(a,3) + math.Pow(b,3) + math.Pow(c,3) == 30 {
